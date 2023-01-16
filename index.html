@@ -75,9 +75,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-Equation" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-Beecode" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2023/01/16/Equation/" class="article-date">
+    <a href="/2023/01/16/Beecode/" class="article-date">
   <time class="dt-published" datetime="2023-01-15T16:00:00.000Z" itemprop="datePublished">2023-01-16</time>
 </a>
     
@@ -89,7 +89,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/01/16/Equation/">模型公式汇总</a>
+      <a class="p-name article-title" href="/2023/01/16/Beecode/">模型 $2$ 源码</a>
     </h1>
   
 
@@ -97,22 +97,20 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h2><p>1．理想恒定增长</p>
-<script type="math/tex; mode=display">\begin{cases}E=E_0\dfrac{1-S_e^n}{1-S_e}\\L=E_0S_e^n\dfrac{1-S_l^n}{1-S_l}\\P=E_0S_e^nS_l^n\dfrac{1-S_p^n}{1-S_p}\\H=E_0S_e^nS_l^nS_p^n\dfrac{1-S_h^n}{1-S_h}\\F=E_0S_e^nS_l^nS_p^nS_p^n\dfrac{1-S_f^n}{1-S_f}\\T=E+L+P+H+F\\\end{cases}</script><p>2．食物维持</p>
-<script type="math/tex; mode=display">F_p>lC_l+HC_h+FC_f</script><h2 id="模型-2"><a href="#模型-2" class="headerlink" title="模型 $2$"></a>模型 $2$</h2><p>1．基础方程</p>
-<script type="math/tex; mode=display">\dfrac{\text{d}B_i}{\text{d}t}=\left(S_{i-1}B_{i-1}-B_i\right)a_i</script><p>2．季节</p>
-<script type="math/tex; mode=display">B_0=s\left(t\right)E_0</script><script type="math/tex; mode=display">s\left(t\right)=1-\max \left\{1-\dfrac{1}{1+x_1e^{-\frac{2t}{x_2}}},\dfrac{1}{1+x_3e^{-\frac{2\left(t-x_4\right)}{x_5}}}\right\}</script><script type="math/tex; mode=display">\tilde{s}\left(t\right)=1-\begin{cases}\dfrac{1}{1+x_3e^{\frac{2\left(x-\tilde{x}_4\right)}{\tilde{x}_5}}},&x<150\\\dfrac{1}{1+x_1e^{-\frac{2\left(x-\tilde{x}_4\right)}{x_2}}},&x\ge150 \end{cases}</script><p>3．食物短缺、同类相食</p>
-<script type="math/tex; mode=display">\dfrac{\text{d}f}{\text{d}t}=s\left(t\right)pF+\gamma_L\sum_{i=4}^8w_id_i-f_d</script><h2 id="欧拉法"><a href="#欧拉法" class="headerlink" title="欧拉法"></a>欧拉法</h2><p>1．</p>
-<script type="math/tex; mode=display">B_i^{n+1}=B_i^n+\Delta t\left[\left(S_{n-1}B_{i-1}^n-B_i^n\right)a_i\right]</script><p>2．</p>
-<script type="math/tex; mode=display">f^{n+1}=f^n+\Delta t \left(s\left(t\right)pF^n+\gamma_L\sum_{i=4}^8w_id_i^n-f_d\right)</script>
+        <p><strong>语言</strong>   Python 3</p>
+        
+          <p class="article-more-link">
+            <a href="/2023/01/16/Beecode/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://baed0023.github.io/2023/01/16/Equation/" data-id="clcyxlokd0000m4bahdpxaq2p" data-title="模型公式汇总" class="article-share-link">Share</a>
+      <a data-url="http://baed0023.github.io/2023/01/16/Beecode/" data-id="clcyxx3pm0000z0ba7e0u20g7" data-title="模型 $2$ 源码" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Equation/" rel="tag">Equation</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Code/" rel="tag">Code</a></li></ul>
 
     </footer>
   </div>
@@ -158,12 +156,12 @@
 </thead>
 <tbody>
 <tr>
-<td>3</td>
-<td>5</td>
-<td>12</td>
-<td>21</td>
-<td>14</td>
-<td>55</td>
+<td>$3$</td>
+<td>$5$</td>
+<td>$12$</td>
+<td>$21$</td>
+<td>$14$</td>
+<td>$55$</td>
 </tr>
 </tbody>
 </table>
@@ -185,27 +183,27 @@
 <tbody>
 <tr>
 <td>I</td>
-<td>0.97</td>
-<td>0.94</td>
-<td>0.999</td>
-<td>0.985</td>
-<td>0.955</td>
+<td>$0.97$</td>
+<td>$0.94$</td>
+<td>$0.999$</td>
+<td>$0.985$</td>
+<td>$0.955$</td>
 </tr>
 <tr>
 <td>II</td>
-<td>0.94</td>
-<td>0.917</td>
-<td>0.985</td>
-<td>0.985</td>
-<td>0.9</td>
+<td>$0.94$</td>
+<td>$0.917$</td>
+<td>$0.985$</td>
+<td>$0.985$</td>
+<td>$0.9$</td>
 </tr>
 <tr>
 <td>III</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
 </tr>
 </tbody>
 </table>
@@ -228,30 +226,30 @@
 <tbody>
 <tr>
 <td>I</td>
-<td>7.3</td>
-<td>11.2</td>
-<td>26.0</td>
-<td>39.0</td>
-<td>16.5</td>
-<td>60000</td>
+<td>$7.3$</td>
+<td>$11.2$</td>
+<td>$26.0$</td>
+<td>$39.0$</td>
+<td>$16.5$</td>
+<td>$60000$</td>
 </tr>
 <tr>
 <td>II</td>
-<td>12.3</td>
-<td>15.3</td>
-<td>26.0</td>
-<td>35.5</td>
-<td>11</td>
-<td>34000</td>
+<td>$12.3$</td>
+<td>$15.3$</td>
+<td>$26.0$</td>
+<td>$35.5$</td>
+<td>$11$</td>
+<td>$34000$</td>
 </tr>
 <tr>
 <td>III</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>82000</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$1$</td>
+<td>$82000$</td>
 </tr>
 </tbody>
 </table>
@@ -272,12 +270,12 @@
 </thead>
 <tbody>
 <tr>
-<td>7.4</td>
-<td>12.5</td>
-<td>25.3</td>
-<td>37.9</td>
-<td>16.9</td>
-<td>49500</td>
+<td>$7.4$</td>
+<td>$12.5$</td>
+<td>$25.3$</td>
+<td>$37.9$</td>
+<td>$16.9$</td>
+<td>$49500$</td>
 </tr>
 </tbody>
 </table>
@@ -297,11 +295,11 @@
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td>0.018</td>
-<td>0</td>
-<td>0.007</td>
-<td>0.007</td>
+<td>$0$</td>
+<td>$0.018$</td>
+<td>$0$</td>
+<td>$0.007$</td>
+<td>$0.007$</td>
 </tr>
 </tbody>
 </table>
@@ -323,13 +321,13 @@
 </thead>
 <tbody>
 <tr>
-<td>385</td>
-<td>30</td>
-<td>36</td>
-<td>155</td>
-<td>30</td>
-<td>150</td>
-<td>30</td>
+<td>$385$</td>
+<td>$30 $</td>
+<td>$36 $</td>
+<td>$155 $</td>
+<td>$30 $</td>
+<td>$150 $</td>
+<td>$30$</td>
 </tr>
 </tbody>
 </table>
@@ -349,11 +347,11 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>6</td>
-<td>20</td>
-<td>80</td>
-<td>150</td>
+<td>$1$</td>
+<td>$6$</td>
+<td>$20$</td>
+<td>$80$</td>
+<td>$150$</td>
 </tr>
 </tbody>
 </table>
@@ -362,11 +360,58 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://baed0023.github.io/2023/01/16/Data/" data-id="clcyxlokl0003m4bafccm9qt7" data-title="模型公式汇总" class="article-share-link">Share</a>
+      <a data-url="http://baed0023.github.io/2023/01/16/Data/" data-id="clcyxx3pq0001z0bab6w58jq7" data-title="模型公式汇总" class="article-share-link">Share</a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Data/" rel="tag">Data</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Equation" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/01/16/Equation/" class="article-date">
+  <time class="dt-published" datetime="2023-01-15T16:00:00.000Z" itemprop="datePublished">2023-01-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/01/16/Equation/">模型公式汇总</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h2><p>1．理想恒定增长</p>
+<script type="math/tex; mode=display">\begin{cases}E=E_0\dfrac{1-S_e^n}{1-S_e}\\L=E_0S_e^n\dfrac{1-S_l^n}{1-S_l}\\P=E_0S_e^nS_l^n\dfrac{1-S_p^n}{1-S_p}\\H=E_0S_e^nS_l^nS_p^n\dfrac{1-S_h^n}{1-S_h}\\F=E_0S_e^nS_l^nS_p^nS_p^n\dfrac{1-S_f^n}{1-S_f}\\T=E+L+P+H+F\\\end{cases}</script><p>2．食物维持</p>
+<script type="math/tex; mode=display">F_p>lC_l+HC_h+FC_f</script><h2 id="模型-2"><a href="#模型-2" class="headerlink" title="模型 $2$"></a>模型 $2$</h2><p>1．基础方程</p>
+<script type="math/tex; mode=display">\dfrac{\text{d}B_i}{\text{d}t}=\left(S_{i-1}B_{i-1}-B_i\right)a_i</script><p>2．季节</p>
+<script type="math/tex; mode=display">B_0=s\left(t\right)E_0</script><script type="math/tex; mode=display">s\left(t\right)=1-\max \left\{1-\dfrac{1}{1+x_1e^{-\frac{2t}{x_2}}},\dfrac{1}{1+x_3e^{-\frac{2\left(t-x_4\right)}{x_5}}}\right\}</script><script type="math/tex; mode=display">\tilde{s}\left(t\right)=1-\begin{cases}\dfrac{1}{1+x_3e^{\frac{2\left(x-\tilde{x}_4\right)}{\tilde{x}_5}}},&x<150\\\dfrac{1}{1+x_1e^{-\frac{2\left(x-\tilde{x}_4\right)}{x_2}}},&x\ge150 \end{cases}</script><p>3．食物短缺、同类相食</p>
+<script type="math/tex; mode=display">\dfrac{\text{d}f}{\text{d}t}=s\left(t\right)pF+\gamma_L\sum_{i=4}^8w_id_i-f_d</script><h2 id="欧拉法"><a href="#欧拉法" class="headerlink" title="欧拉法"></a>欧拉法</h2><p>1．</p>
+<script type="math/tex; mode=display">B_i^{n+1}=B_i^n+\Delta t\left[\left(S_{n-1}B_{i-1}^n-B_i^n\right)a_i\right]</script><p>2．</p>
+<script type="math/tex; mode=display">f^{n+1}=f^n+\Delta t \left(s\left(t\right)pF^n+\gamma_L\sum_{i=4}^8w_id_i^n-f_d\right)</script>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://baed0023.github.io/2023/01/16/Equation/" data-id="clcyxx3ps0003z0ba1r5zdvnz" data-title="模型公式汇总" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Equation/" rel="tag">Equation</a></li></ul>
 
     </footer>
   </div>
@@ -389,7 +434,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data/" rel="tag">Data</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Equation/" rel="tag">Equation</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Code/" rel="tag">Code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data/" rel="tag">Data</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Equation/" rel="tag">Equation</a></li></ul>
     </div>
   </div>
 
@@ -399,7 +444,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Data/" style="font-size: 10px;">Data</a> <a href="/tags/Equation/" style="font-size: 10px;">Equation</a>
+      <a href="/tags/Code/" style="font-size: 10px;">Code</a> <a href="/tags/Data/" style="font-size: 10px;">Data</a> <a href="/tags/Equation/" style="font-size: 10px;">Equation</a>
     </div>
   </div>
 
@@ -421,11 +466,15 @@
       <ul>
         
           <li>
-            <a href="/2023/01/16/Equation/">模型公式汇总</a>
+            <a href="/2023/01/16/Beecode/">模型 $2$ 源码</a>
           </li>
         
           <li>
             <a href="/2023/01/16/Data/">模型公式汇总</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/16/Equation/">模型公式汇总</a>
           </li>
         
       </ul>
